@@ -1,0 +1,15 @@
+server/node_modules/
+client/node_modules/
+server/.env
+
+backend/node_modules/
+frontend/node_modules/
+backend/.env
+
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+dist/
+build/

@@ -1,0 +1,28 @@
+{
+  "name": "vitalink-mern-devops",
+  "version": "1.0.0",
+  "description": "Vitalink MERN Ecosystem - DevOps Ready with Docker Compose and Jenkins CI/CD",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "client": "npm --prefix frontend run dev",
+    "server": "npm --prefix backend start",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "push": "npm --prefix backend run push",
+    "start": "npm --prefix backend start",
+    "install-all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "mern",
+    "docker",
+    "devops",
+    "jenkins",
+    "docker-compose",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Yuvaraj3510",
+  "license": "ISC"
+}
